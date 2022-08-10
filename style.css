@@ -1,0 +1,48 @@
+/* written by chapel1337 */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+#choice_container {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#choice_container > button {
+    height: 75px;
+    width: 250px;
+    margin-left: 180px;
+    margin-top: 13px;
+    background-color: lightgrey;
+    font-size: 15px;
+}
+
+#reload {
+    height: 50px;
+    width: 125px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgrey;
+    transition-duration: 1s;
+    font-size: 15px;
+    opacity: 0%;
+}
+
+#choice_container > button:hover {
+    background-color: rgb(175, 175, 175);
+}
+
+#status {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+}
